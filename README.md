@@ -94,5 +94,5 @@ python yolov5/train.py --img 416 --batch 16 --epochs 200 --data yolov5/data.yaml
 <p>source : Test images</p>
 
 ```
-!python yolov5/detect.py --weights /content/best.pt --img 416 --conf 0.4 --source /content/part/
+!python yolov5/detect.py --weights yolov5/runs/train/singleGPU/yolov5m_results/weights/best.pt --img 416 --conf 0.4 --source /content/test/images
 ```
