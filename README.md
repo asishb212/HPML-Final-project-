@@ -19,8 +19,10 @@ The custom YOLO model built achieved accuracy close to larger 5l and 5x models b
 
 ### Training loss vs epoch
 <img src="/results/comparision of backbones(epochs vs loss) legend.png">
+
 ### Training loss vs run time
 <img src="results/comparision of backbones(loss vs runtime ) legend.png.png">
+
 ### Training times of using multiple GPUS
 <img src="results/runtimes of model L multi gpu legend.png">
 
