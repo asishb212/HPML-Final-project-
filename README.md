@@ -1,4 +1,7 @@
 # Object Detection In Thermal Images Through YOLO Models 
+# collaborators : 
+## Asish Boggavarapu (ab10535)
+## Vinayak Srivastava (vs2839)
 ## Thermal image dataset [Dataset](https://www.flir.com/oem/adas/adas-dataset-form/)
 
 ## Objective
