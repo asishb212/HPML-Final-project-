@@ -1,5 +1,5 @@
 # Object Detection In Thermal Images Through YOLO Models 
-## Thermal image dataset [click here](https://www.flir.com/oem/adas/adas-dataset-form/)
+## Thermal image dataset [Dataset](https://www.flir.com/oem/adas/adas-dataset-form/)
 
 ## Objective
 
@@ -17,6 +17,12 @@ The project team ran multiple variants of different models to benchmark for opti
 ## Results
 The custom YOLO model built achieved accuracy close to larger 5l and 5x models but had a number of parameters and TTA/convergence time comparable to that of the 5s model. The custom model has comparable accuracy to the larger YOLO models but uses a fraction of the parameters and layers and has a faster inference time. The project team's technical contribution includes creating a custom YOLO model optimized for the FLIR dataset and testing it on different hyper-parameters and different models to find optimal parameters. The custom model is lightweight, making it ideal for novel applications such as drones.
 
+#### Training loss vs epoch
+<img src="/results/comparision of backbones(epochs vs loss) legend.png">
+#### Training loss vs run time
+<img src="results/comparision of backbones(loss vs runtime ) legend.png.png">
+#### Training times of using multiple GPUS
+<img src="results/runtimes of model L multi gpu legend.png">
 
 # Repository structure
 ```
