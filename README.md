@@ -1,7 +1,8 @@
 # Object Detection In Thermal Images Through YOLO Models 
 # collaborators : 
-## Asish Boggavarapu (ab10535)
-## Vinayak Srivastava (vs2839)
+<p>Asish Boggavarapu (ab10535)</p>
+<p>Vinayak Srivastava (vs2839)</p>
+
 ## Thermal image dataset [Dataset](https://www.flir.com/oem/adas/adas-dataset-form/)
 
 ## Objective
@@ -73,10 +74,20 @@ HPML-Final-project-
 pip install -qr yolov5/requirements.txt
 ```
 ## Training for 5s backbone
+<p>img : image size</p>
+<p>batch : batch size</p>
+<p>epoch : number of iterations</p>
+<p>data : yaml containing path to train and validation datasets</p>
+<p>cfg : model configuration </p>
+<p>name : directory to save results</p>
 ```
 python yolov5/train.py --img 416 --batch 16 --epochs 200 --data yolov5/data.yaml --cfg yolov5/models/yolo5s.yaml --weights '' --name yolov5s_results  --cache
 ```
 ## Inference
+<p>weights : path to model weights</p>
+<p>img : image size</p>
+<p>conf : threshold for filtering bad outputs</p>
+<p>source : Test images</p>
 ```
 !python yolov5/detect.py --weights /content/best.pt --img 416 --conf 0.4 --source /content/part/
 ```
